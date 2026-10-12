@@ -1,0 +1,5 @@
+port,service,detail,risk,segment,target
+443,HTTPS,TLS endpoint for the public application,Medium,Internet,Public Application
+22,SSH,administrative access restricted by policy,High,Restricted by policy,Administrative Access
+53,DNS,internal resolver reachable from a broad segment,Medium,Broad/Internal Segment,Internal Resolver
+3389,RDP,remote desktop service exposed to a management subnet,High,Management Subnet,Remote Desktop Service
